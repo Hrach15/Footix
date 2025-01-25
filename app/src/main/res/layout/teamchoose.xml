@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/league_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a League"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/league_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="48dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/team_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Team"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/team_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="48dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Play"
+        android:textSize="30dp" />
+
+</LinearLayout>
